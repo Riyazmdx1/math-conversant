@@ -120,7 +120,7 @@ def update_prompt_from_json() -> None:
 # This ensures rendering is prevented upon import of this file.
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Conversational personas using Cohere",
+        page_title="Conversational personas using Schobo",
         page_icon="🎭",
         layout="wide",
     )
