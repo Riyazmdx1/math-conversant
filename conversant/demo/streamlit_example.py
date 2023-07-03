@@ -178,17 +178,10 @@ if __name__ == "__main__":
     with st.expander("About", expanded="bot" not in st.session_state):
         st.markdown(
             """
-        This demo app is using 
-        [**conversant**](https://github.com/cohere-ai/sandbox-conversant-lib), an 
-        open-source framework for building chatbots on top of Cohere’s large 
-        language models. 
-
-        Cohere provides access to advanced Large Language Models and NLP tools through 
-        one easy-to-use API. 
+        This demo app is built to showccase the possible use cases of AI Educational technology 
+        
+        Schobo Ltd provides consultancy to access advanced Large Language Models and NLP tools.
         """
-            "[**Get started for free!**]"
-            "(https://dashboard.cohere.ai/welcome/register?utm_source=cohere-owned&utm_"
-            "medium=content&utm_campaign=sandbox&utm_term=streamlit&utm_content=conversant)"
         )
 
     # Page control flow logic is determined from the sidebar.
